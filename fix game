@@ -24,7 +24,7 @@ def add_word(word_pairs):
     while True:
         word = input("Введите слово на русском языке (или нажмите Enter для выхода): ").strip()
         if not word:
-            return
+            main()
 
         translation = input("Введите перевод этого слова: ").strip()
         if word and translation:
